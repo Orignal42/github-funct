@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.UserCard{
+  margin-top: 10vh;
+}
+
+.Profil{
+  margin-bottom: 5vh;
+}
+
+.Image{
+  width: 100%;
+  height: 90vh;
+  background-image: url(https://github.githubassets.com/images/modules/site/social-cards/github-social.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Presentation{
+  padding-top: 30vh;
+  text-align: center;
+  color:white;
+}
