@@ -14,43 +14,6 @@ import HomePage from './Home';
 
 function App() {
 
-  // const Julien42120 = [
-  //   {
-  //     "login": "Julien42120",
-  //     "id": 77976551,
-  //     "node_id": "MDQ6VXNlcjc3OTc2NTUx",
-  //     "avatar_url": "https://avatars.githubusercontent.com/u/77976551?v=4",
-  //     "gravatar_id": "",
-  //     "url": "https://api.github.com/users/Julien42120",
-  //     "html_url": "https://github.com/Julien42120",
-  //     "followers_url": "https://api.github.com/users/Julien42120/followers",
-  //     "following_url": "https://api.github.com/users/Julien42120/following{/other_user}",
-  //     "gists_url": "https://api.github.com/users/Julien42120/gists{/gist_id}",
-  //     "starred_url": "https://api.github.com/users/Julien42120/starred{/owner}{/repo}",
-  //     "subscriptions_url": "https://api.github.com/users/Julien42120/subscriptions",
-  //     "organizations_url": "https://api.github.com/users/Julien42120/orgs",
-  //     "repos_url": "https://api.github.com/users/Julien42120/repos",
-  //     "events_url": "https://api.github.com/users/Julien42120/events{/privacy}",
-  //     "received_events_url": "https://api.github.com/users/Julien42120/received_events",
-  //     "type": "User",
-  //     "site_admin": false,
-  //     "name": null,
-  //     "company": null,
-  //     "blog": "",
-  //     "location": null,
-  //     "email": null,
-  //     "hireable": null,
-  //     "bio": null,
-  //     "twitter_username": null,
-  //     "public_repos": 39,
-  //     "public_gists": 0,
-  //     "followers": 0,
-  //     "following": 0,
-  //     "created_at": "2021-01-25T14:24:44Z",
-  //     "updated_at": "2021-07-26T12:53:57Z"
-  //   }
-  // ]
-
 
 
   // TEST //
@@ -93,9 +56,9 @@ function App() {
   }
 
   return (
-    <Router>
+   
       <div>
-        <NavBar />
+       
         <Switch>
           <Route path="/Home">
             <HomePage />
